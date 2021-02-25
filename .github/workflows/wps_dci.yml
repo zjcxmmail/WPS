@@ -1,4 +1,4 @@
-name: 'WPS打卡邀请'
+name: 'WPS'
 
 on:
   push:
