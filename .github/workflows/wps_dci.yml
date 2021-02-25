@@ -1,11 +1,11 @@
-name: 'WPS'
+name: 'WPS daily check in'
 
 on:
   push:
     branches: 
       - main
   schedule:
-    - cron: '3 22 * * *'
+    - cron: '0 1 * * *'
 
 jobs:
   daily_check_in:
