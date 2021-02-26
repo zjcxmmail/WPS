@@ -17,9 +17,9 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.7
-      - name: 'Install requirements'
+      - name: '安装依赖'
         run: pip install -r ./requirements.txt
-      - name: 'Working-invite'
+      - name: '邀请好友'
         env:
           SERVER_KEY: ${{secrets.SERVER_KEY}}
         run: python WPS_accept_invitation.py
