@@ -1,10 +1,10 @@
 invite_userids = [360397699]
 
- import json, os, time
- import requests
+import json, os, time
+import requests
  
  
- sids = [
+sids = [
  "V02StVuaNcoKrZ3BuvJQ1FcFS_xnG2k00af250d4002664c02f",
  "V02SWIvKWYijG6Rggo4m0xvDKj1m7ew00a8e26d3002508b828",
  "V02Sr3nJ9IicoHWfeyQLiXgvrRpje6E00a240b890023270f97",
@@ -18,7 +18,7 @@ invite_userids = [360397699]
  "V02SwV15KQ_8n6brU98_2kLnnFUDUOw00adf3fda0026934a7f",
  "V02SC1mOHS0RiUBxeoA8NTliH2h2NGc00a803c35002693584d"
  ]
- mk = 0
+mk = 0
  
  def request_re(sid, invite_userid, rep = 30):
  invite_url = 'http://zt.wps.cn/2018/clock_in/api/invite'
