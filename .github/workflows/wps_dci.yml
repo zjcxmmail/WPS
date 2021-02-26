@@ -1,4 +1,4 @@
-name: 'WPS daily check in'
+name: 'WPS打卡邀请'
 
 on:
   push:
