@@ -55,7 +55,7 @@ if BARK_URL:
     bark_url = BARK_URL[:-1] if BARK_URL.endswith('/') else BARK_URL
     requests.get(bark_url + '/%s'%(text))
     
-QMSG_KEY = os.getnev('QMSG_KEY')
+QMSG_KEY = os.getenv('QMSG_KEY')
 if QMSG_KEY:
     text = 'WPS邀请好友任务：成功邀请到%d位好友'%(mk)
     requests.get('https://qmsg.zendee.cn/send/%s?msg=%s'%(QMSG_KEY.strip(), text))
